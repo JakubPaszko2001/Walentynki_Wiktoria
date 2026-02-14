@@ -172,7 +172,7 @@ function HeartWithEffects() {
 
 export default function App() {
   return (
-    <div className="w-screen h-screen bg-black flex items-center justify-center">
+    <div className="fixed inset-0 bg-black flex items-center justify-center">
       <Canvas camera={{ position: [0, 0, 7], fov: 60 }}>
         <ambientLight intensity={0.5} />
         <pointLight position={[5, 5, 5]} intensity={2} />
